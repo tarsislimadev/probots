@@ -1,12 +1,16 @@
 # P Robots
 
-## Transformers
+This project has many offline AI workflows.
 
-From mp4/mkv/avi to mp3/ogg
+## from video to audio
 
-```bash
-probots videoaudio -i file.mp4 file.mp3
-```
+## from video to images
+
+## from video to text (transcription/extraction)
+
+## from audio to text (speech)
+
+## from text to text (speakking)
 
 ## license
 
