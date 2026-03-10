@@ -26,6 +26,10 @@ This project has many offline AI workflows.
 
 [argostranslate]()
 
+## from pdf file to text
+
+[Python PDFReader](#)
+
 ## license
 
 [MIT](./LICENSE)
