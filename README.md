@@ -29,7 +29,7 @@ This project has many offline AI workflows.
 ## from txt to audio (text-to-speech)
 
 ```bash
-docker run -v .:/files -w /files -e input=file.txt -e output=file.mp3 tmvdl/ai:txt2mp3
+docker run -v .:/files -w /files -e input=file.txt -e output=file.wav tmvdl/ai:txt2wav
 ```
 
 ## from pdf file to text
