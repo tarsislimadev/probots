@@ -36,7 +36,9 @@ docker run --rm -v .:/files -w /files -e voice=pt-br -e input=file.txt -e output
 
 ## from pdf file to text
 
-[Python PDFReader](#)
+```bash
+docker run --rm -v .:/files -w /files -e input=file.pdf -e output=file.txt tmvdl/ai:pdf2txt
+```
 
 ## license
 
