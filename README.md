@@ -40,6 +40,12 @@ docker run --rm -v .:/files -w /files -e voice=pt-br -e input=file.txt -e output
 docker run --rm -v .:/files -w /files -e input=file.pdf -e output=file.txt tmvdl/ai:pdf2txt
 ```
 
+## from image to text (extract)
+
+```bash
+docker run --rm -v .:/files -w /files -e input=file.png -e output=file.txt tmvdl/ai:png2txt
+```
+
 ## license
 
 [MIT](./LICENSE)
